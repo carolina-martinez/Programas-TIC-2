@@ -1,0 +1,26 @@
+//Rellenar una matriz 3x3 con ceros y unos
+
+#include<time.h> 
+#include<iostream>
+#include<stdlib.h> 
+
+int main(){
+    int salir;
+    int fil,col;
+    int num;
+    int matrix[3][3];
+    srand(time(0));
+    for (fil=0;fil<3;fil++){
+        for (col=0;col<3;col++){
+            matrix[fil][col]=rand()%2;
+            std::cout<<matrix[fil][col] << '\n';
+            }
+        }
+    std::cin>> salir;
+    return 0;
+    
+    
+    
+    
+    
+    }
